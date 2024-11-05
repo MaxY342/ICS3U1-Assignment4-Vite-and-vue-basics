@@ -14,7 +14,8 @@ import GregoryLeibnizPiApproximation from './components/GregoryLeibnizPiApproxim
 
 <style scoped>
 .app-container {
-  display: flex;
-  gap: 2rem;
+    display: grid;
+    grid-template-columns: 45vw 45vw;
+    gap: 100px;
 }
 </style>
